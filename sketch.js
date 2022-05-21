@@ -18,80 +18,77 @@ let freq = 0;
 let freqThreshold = 1;
 let blosGreen = '#00ff9f';
 
-let notes = [{
-  instrument: 'UKULELE',  
-  note: 'A',
-  freq: 440
+let notes = [
+  {
+    instrument: "UKULELE",
+    note: "A",
+    freq: 440,
   },
   {
-    instrument: 'UKULELE',
-    note: 'E',
-    freq: 329.6276
+    instrument: "UKULELE",
+    note: "E",
+    freq: 329.6276,
   },
   {
-    instrument: 'UKULELE',
-    note: 'C',
-    freq: 261.6256
+    instrument: "UKULELE",
+    note: "C",
+    freq: 261.6256,
   },
   {
-    instrument: 'UKULELE',
-    note: 'G',
-    freq: 391.9954
-  }
-];
-
-let guitarNotes = [{
-    instrument: 'GUITAR',
-    note: 'E',
-    freq: 82.41
+    instrument: "UKULELE",
+    note: "G",
+    freq: 391.9954,
   },
   {
-    instrument: 'GUITAR',
-    note: 'A',
-    freq: 110
+    instrument: "GUITAR",
+    note: "E",
+    freq: 82.41,
   },
   {
-    instrument: 'GUITAR',
-    note: 'D',
-    freq: 146.83
+    instrument: "GUITAR",
+    note: "A",
+    freq: 110,
   },
   {
-    instrument: 'GUITAR',
-    note: 'G',
-    freq: 196
+    instrument: "GUITAR",
+    note: "D",
+    freq: 146.83,
   },
   {
-    instrument: 'GUITAR',
-    note: 'B',
-    freq: 246.94
+    instrument: "GUITAR",
+    note: "G",
+    freq: 196,
   },
   {
-    instrument: 'GUITAR',
-    note: 'e',
-    freq: 329.63
-  }
-];
-
-let bassNotes = [{
-    instrument: 'GUITAR',
-    note: 'E',
-    freq: 41
+    instrument: "GUITAR",
+    note: "B",
+    freq: 246.94,
   },
   {
-    instrument: 'GUITAR',
-    note: 'A',
-    freq: 55
+    instrument: "GUITAR",
+    note: "e",
+    freq: 329.63,
   },
   {
-    instrument: 'GUITAR',
-    note: 'D',
-    freq: 73
+    instrument: "BASS",
+    note: "E",
+    freq: 41,
   },
   {
-    instrument: 'GUITAR',
-    note: 'G',
-    freq: 98
-  }
+    instrument: "BASS",
+    note: "A",
+    freq: 55,
+  },
+  {
+    instrument: "BASS",
+    note: "D",
+    freq: 73,
+  },
+  {
+    instrument: "BASS",
+    note: "G",
+    freq: 98,
+  },
 ];
 
 function setup() {
